@@ -48,34 +48,34 @@
         <div class="help-text caption-text">
           @if (formMonitorType.value === "Ping") {
             <span i18n>
-              GlitchTip will "ping" the specified URL using an HTTP HEAD request
+              Hawkeye will "ping" the specified URL using an HTTP HEAD request
               with no payload.
             </span>
           }
           @if (formMonitorType.value === "POST") {
             <span i18n>
-              GlitchTip will send an HTTP POST request to the specified URL. If
+              Hawkeye will send an HTTP POST request to the specified URL. If
               the expected response is not received, the site will be marked as
               Down.
             </span>
           }
           @if (formMonitorType.value === "GET") {
             <span i18n>
-              GlitchTip will send an HTTP GET request to the specified URL. If
+              Hawkeye will send an HTTP GET request to the specified URL. If
               the expected response is not received, the site will be marked as
               Down.
             </span>
           }
           @if (formMonitorType.value === "Heartbeat") {
             <p class="caption-text" i18n
-              >GlitchTip will await requests from your site to ensure it is
+              >Hawkeye will await requests from your site to ensure it is
               active. If it doesn't receive the request, the site will be marked
               as Down.</p
             >
           }
           @if (formMonitorType.value === "TCP Port") {
             <span i18n
-              >GlitchTip will check to make sure the port at the specified URL
+              >Hawkeye will check to make sure the port at the specified URL
               is accessible.</span
             >
           }
@@ -296,7 +296,7 @@
           </mat-form-field>
           <div class="help-text caption-text">
             <span i18n
-              >Time in seconds GlitchTip will wait for a response from your app.
+              >Time in seconds Hawkeye will wait for a response from your app.
               Defaults to 20 seconds.</span
             >
           </div>

@@ -49,7 +49,7 @@
           }
           @if (subscriptionRefreshTimeout()) {
             <div>
-              GlitchTip was unable to find a subscription for your account. If
+              Hawkeye was unable to find a subscription for your account. If
               you just signed up for a subscription on our payment platform,
               please contact us at
               <a href="mailto:{{ billingEmail }}">{{ billingEmail }}</a
@@ -96,12 +96,12 @@
               ) {
                 @if (subscription.status === "trialing") {
                   <p class="body-text no-bottom-margin" i18n
-                    >This organization has a trial subscription to GlitchTip.</p
+                    >This organization has a trial subscription to Hawkeye.</p
                   >
                 }
                 @if (subscription.status === "past_due") {
                   <p class="body-text" i18n
-                    >This organization has a subscription to GlitchTip, but the
+                    >This organization has a subscription to Hawkeye, but the
                     payment is past due.</p
                   >
                 }
@@ -144,7 +144,7 @@
               } @else {
                 <p class="body-text" i18n
                   >This organization does not have an active subscription to
-                  GlitchTip. Pick a plan to get started.</p
+                  Hawkeye. Pick a plan to get started.</p
                 >
               }
             </div>

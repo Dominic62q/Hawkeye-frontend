@@ -6,7 +6,7 @@
           @if (canCreateOrg()) {
             <mat-card-title i18n>Create a New Organization</mat-card-title>
             @if (organizationCount() === 0) {
-              <p i18n>This is the first step to get started with GlitchTip.</p>
+              <p i18n>This is the first step to get started with Hawkeye.</p>
             }
             <form
               [formGroup]="form"
@@ -33,7 +33,7 @@
           } @else {
             <ng-container i18n
               >Organization creation has been disabled on this instance of
-              GlitchTip. Contact an administrator to be invited into an existing
+              Hawkeye. Contact an administrator to be invited into an existing
               organization.</ng-container
             >
           }

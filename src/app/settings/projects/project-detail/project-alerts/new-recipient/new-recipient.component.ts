@@ -61,7 +61,7 @@ export class NewRecipientComponent implements OnInit {
     botEmail: new FormControl(""),
     apiKey: new FormControl(""),
     channel: new FormControl(""),
-    topic: new FormControl("GlitchTip Alerts"),
+    topic: new FormControl("Hawkeye Alerts"),
   });
 
   resolveIcon = resolveRecipientIcon;
@@ -136,7 +136,7 @@ export class NewRecipientComponent implements OnInit {
         this.botEmail.setValue(cfg ? cfg.bot_email : (r.botEmail || ""));
         this.apiKey.setValue(cfg ? cfg.api_key : (r.apiKey || ""));
         this.channel.setValue(cfg ? cfg.channel : (r.channel || ""));
-        this.topic.setValue(cfg ? cfg.topic : (r.topic || "GlitchTip Alerts"));
+        this.topic.setValue(cfg ? cfg.topic : (r.topic || "Hawkeye Alerts"));
       }
     }
   }

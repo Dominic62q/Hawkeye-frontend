@@ -1,5 +1,5 @@
 <ng-template #gettingStarted>
-  <p i18n>To start using GlitchTip, you need to:</p>
+  <p i18n>To start using Hawkeye, you need to:</p>
   <ol>
     <li i18n>Install the sentry SDK for your platform into your project.</li>
     <li i18n
@@ -29,7 +29,7 @@
       >
       <li i18n
         ><strong>auto_session_tracking</strong>: set to <code>false</code>.
-        GlitchTip does not support session tracking.</li
+        Hawkeye does not support session tracking.</li
       >
     </ul>
     <h3 i18n>Performance Monitoring</h3>
@@ -43,7 +43,7 @@
     >
     <h3 i18n>Logs</h3>
     <p i18n
-      >GlitchTip can ingest
+      >Hawkeye can ingest
       <a target="_blank" href="https://glitchtip.com/documentation/logs"
         >application logs</a
       >
@@ -60,7 +60,7 @@
     >
     <h3 i18n>AI-Assisted Debugging</h3>
     <p i18n
-      >GlitchTip includes an
+      >Hawkeye includes an
       <a target="_blank" href="https://glitchtip.com/documentation/mcp"
         >MCP server</a
       >
@@ -111,7 +111,7 @@
             @if (platformHasDocs() && activeProjectPlatformName()) {
               <h2 class="section-header-text" i18n
                 >Connect your {{ activeProjectPlatformName() }} project to
-                GlitchTip</h2
+                Hawkeye</h2
               >
               @if (platformMdContent(); as platformMd) {
                 <markdown data-cy="sdk-docs" [data]="platformMd"></markdown>
@@ -122,7 +122,7 @@
               }
             } @else {
               <h2 class="section-header-text" i18n
-                >Connect your project to GlitchTip</h2
+                >Connect your project to Hawkeye</h2
               >
               <ng-container [ngTemplateOutlet]="gettingStarted"></ng-container>
               <p data-cy="platform-other-notice" i18n
@@ -136,7 +136,7 @@
         } @else {
           <div class="install-instructions body-text">
             <h2 class="section-header-text" i18n
-              >Connect your project to GlitchTip</h2
+              >Connect your project to Hawkeye</h2
             >
             <ng-container [ngTemplateOutlet]="gettingStarted"></ng-container>
             @if (activeProjectSlug(); as projectSlug) {
@@ -171,7 +171,7 @@
               >
             } @else {
               <p class="body-text" i18n
-                >Your DSN tells your SDK how to send events to your GlitchTip
+                >Your DSN tells your SDK how to send events to your Hawkeye
                 project. The Security Endpoint is used for browser Content
                 Security Policy (CSP) reporting.</p
               >

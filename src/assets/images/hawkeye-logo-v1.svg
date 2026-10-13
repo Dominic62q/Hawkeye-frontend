@@ -1,0 +1,8 @@
+<svg width="456" height="114" viewBox="0 0 456 114" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hawkeye">
+<g transform="translate(0 0) scale(0.98)">
+<path d="M4 58C20 26 36 14 50 14C64 14 80 26 96 58C80 90 64 102 50 102C36 102 20 90 4 58Z" stroke="#841880" stroke-width="9" stroke-linejoin="round"/>
+<circle cx="50" cy="58" r="22" fill="#841880"/>
+<circle cx="58" cy="50" r="7" fill="#ffffff"/>
+</g>
+<text x="118" y="82" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="78" font-weight="700" fill="#841880" letter-spacing="-1">Hawkeye</text>
+</svg>

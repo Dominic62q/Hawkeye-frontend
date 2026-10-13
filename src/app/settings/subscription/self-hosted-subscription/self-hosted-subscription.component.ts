@@ -16,7 +16,6 @@ import { environment } from "../../../../environments/environment";
 import { InstanceLicenseService } from "src/app/api/instance-license.service";
 import { SettingsService } from "src/app/api/settings.service";
 import { UserService } from "src/app/api/user/user.service";
-import { SupportBannerComponent } from "src/app/shared/support-banner/support-banner.component";
 
 @Component({
   selector: "gt-self-hosted-subscription",
@@ -31,7 +30,6 @@ import { SupportBannerComponent } from "src/app/shared/support-banner/support-ba
     MatDividerModule,
     MatProgressSpinnerModule,
     SubscriptionChartsComponent,
-    SupportBannerComponent,
   ],
 })
 export class SelfHostedSubscriptionComponent {

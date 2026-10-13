@@ -373,7 +373,7 @@ export class ProjectAlertsService extends StatefulService<ProjectAlertState> {
               base.botEmail = recipient.config.bot_email;
               base.apiKey = recipient.config.api_key;
               base.channel = recipient.config.channel;
-              base.topic = recipient.config.topic || "GlitchTip Alerts";
+              base.topic = recipient.config.topic || "Hawkeye Alerts";
             }
             return base;
           })
@@ -434,7 +434,7 @@ export class ProjectAlertsService extends StatefulService<ProjectAlertState> {
           base.botEmail = recipient.config.bot_email;
           base.apiKey = recipient.config.api_key;
           base.channel = recipient.config.channel;
-          base.topic = recipient.config.topic || "GlitchTip Alerts";
+          base.topic = recipient.config.topic || "Hawkeye Alerts";
         }
         return base;
       });
